@@ -1,9 +1,15 @@
-<h1>Angular app</h1>
-<ul>
-  <li><a [routerLink]="['/sobre-mi']">Sobre mi</a></li>
-  <li><a [routerLink]="['/contacto']">Contacto</a></li>
-  <li><a [routerLink]="['/crear-proyecto']">Crear Proyecto</a></li>
-  <li><a [routerLink]="['/proyectos']">Mi proyectos</a></li>
-</ul>
+<header>
+  <ul>
+    <li><a [routerLink]="['/sobre-mi']">Sobre mi</a></li>
+    <li><a [routerLink]="['/contacto']">Contacto</a></li>
+    <li id="logo"><a href="#">NDB</a></li>
+    <li><a [routerLink]="['/crear-proyecto']">Crear Proyecto</a></li>
+    <li><a [routerLink]="['/proyectos']">Mi proyectos</a></li>
+  </ul>
+</header>
 
 <router-outlet></router-outlet>
+
+<footer>
+  Master de Javascript, &copy;
+</footer>

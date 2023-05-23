@@ -1,0 +1,10 @@
+@font-face{
+    font-family: "typewriter";
+    src: url("fonts/typewriter.ttf");
+}
+
+body{
+    font-family: "typewriter";
+    background-color: blueviolet;
+
+}
